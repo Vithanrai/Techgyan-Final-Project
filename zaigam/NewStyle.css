@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'this_new_font_bold';
+    src: url(fonts/Montserrat-Bold.ttf);
+ }
+ @font-face {
+   font-family: 'this_new_font_normal';
+   src: url(fonts/Montserrat-Medium.ttf);
+ }
+
+.body{
+    font-family: 'this_new_font_normal';
+}
+
+.PromptSection{
+    margin: auto;
+    /*position: absolute;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
+    width: 70%;
+    padding: 50px;
+    font-family: 'this_new_font_normal';
+}
+.LogIn{
+    border-radius: 8px 0px 0px 8px;
+}
+
+.SignUp{
+    border-radius: 0px 8px 8px 0px;
+    background-color: rgb(255, 136, 40);
+    background-image: linear-gradient(90deg, rgb(255, 104, 61), rgb(255, 76, 101));
+}
+
+.FormContainer{
+    justify-content: center;
+}
+
+.FullContentRow{
+    border-radius: 8px;
+    box-shadow: 0px 10px 20px 5px rgb(192, 192, 192);
+}
+
+.TPloginButton{
+    display: block;
+    background: none;
+    border: 1.5px solid rgb(180, 178, 178);
+    border-radius: 50%;
+    padding: 0px;
+    height: 35px;
+    width: 35px;
+    color: black;
+}
+
+input{
+    width: 100%;
+    border: none;
+    background: rgb(236, 236, 236);
+    padding:5px 10px;
+    font-size: small !important;
+}
+
+a.ForgotPassword:link, a.ForgotPassword:visited{
+    color: gray;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+a.ForgotPassword:hover{
+    color: red;
+}
+
+.loginButton{
+    background-color: rgb(255, 95, 31);
+    border: 2px solid rgb(255, 95, 31);
+    border-radius: 25px;
+    padding: 10px;
+    width: 100%;
+    font-size: small;
+    color: white;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+.loginButton:hover{
+    background-color: rgb(255, 72, 0);
+    border: 2px solid rgb(255, 72, 0);;
+}
+
+.TPcolValue{
+    padding: 0 !important;
+}
+
+.signupContents{
+    margin: auto;
+    padding: 50% 10%;
+    color: white;
+}
+
+.headings{
+    font-family: 'this_new_font_bold';
+}
+
+.signupButton{
+    background: none;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 10px;
+    width: 100%;
+    font-size: small;
+    color: white;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+.signupButton:hover{
+    background: white;
+    color: rgb(255, 72, 0);
+}
